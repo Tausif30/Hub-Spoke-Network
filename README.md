@@ -36,7 +36,7 @@
 <p>Hosts all shared network and services which are:</p>
 <ul>
     <li><strong>Azure Firewall (<code>fw-hub</code>):</strong> The security choke point. All egress and inter-VNet traffic is routed through its Private IP (<code>10.0.1.4</code>).</li>
-    <li><strong>VPN Gateway (<code>vpn-gw-hub</code>):</strong> Provides encrypted site-to-site or point-to-site connectivity. VNet Peering utilizes <strong>Gateway Transit</strong> to allow Spokes to use this connection.</li>
+    <li><strong>VPN Gateway (<code>vpn-gw-hub</code>):</strong> Provides encrypted site-to-site or point-to-site connectivity. VNet Peering utilizes <strong>Gateway Transit</strong> to allow Spokes to use this connection. VPN Gateway IP Subnet (<code>10.0.2.0/24</code>)</li>
     <li><strong>Azure Bastion (<code>bastion-hub</code>):</strong> A managed service for secure RDP/SSH access to VMs using HTTPS (port 443), eliminating the need for public IPs on the workload VMs.</li>
     <li><strong>SQL Private Endpoint (<code>pe-sql-hub</code>):</strong> A network interface placed in the dedicated Database Subnet (<code>10.0.4.0/24</code>) that links to the Azure SQL PaaS service.</li>
 </ul>
