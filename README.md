@@ -1,4 +1,4 @@
-![Hub-Spoke-Tokyo](https://github.com/user-attachments/assets/fd36fe34-dd9a-4bc8-90eb-aa6e3983d24d)<h1 align="center">Azure Secure Hub-and-Spoke Network Project</h1>
+<h1 align="center">Azure Secure Hub-and-Spoke Network Project</h1>
 
 <hr>
 
@@ -26,7 +26,7 @@
 
 <p align="center">
 
-    <img width="12268" height="12012" alt="Hub-Spoke-Tokyo" src="https://github.com/user-attachments/assets/196577d3-2ea6-4288-9d59-175186093d52" />
+![Hub-Spoke-Tokyo](https://github.com/user-attachments/assets/fd36fe34-dd9a-4bc8-90eb-aa6e3983d24d)
     
 </p>
 <p align="center"><em>Figure 1: Azure Hub-and-Spoke Logical Diagram</em></p>
